@@ -1,0 +1,25 @@
+{
+	"title": "Sample Oracle",
+	"public_key": [your ethereum public key here],
+	"NODE_URL": "unsure what to put here",
+	"mnemonic": "seed phrase for yout ethereum wallet",
+	"EndpointSchema": {
+		"name": "Endpoint name",
+		"curve": [
+			a,
+			b,
+			c,
+			d
+		],
+		"broker": "[Ethereum address] of a specific address allowed to bond and unbond from the Oracle",
+		"md": "This file should provide a description of the Oracle Endpoint and what information it offers",
+		"queryList": [
+			{
+				"query": "<pair>",
+				"params": [],
+				"dynamic": false,
+				"responseType": "strisng"
+			}
+		]
+	}
+}
